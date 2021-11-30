@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="@string/gameName"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+    <TextView
+
+        android:id="@+id/tv_info"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/it_is_playerx_s_turn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp">
+
+        <Button
+
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:id="@+id/btn_1"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:text="@string/click"
+            android:textSize="20sp" />
+
+        <Button
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:id="@+id/btn_2"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/click" />
+
+        <Button
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:id="@+id/btn_3"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/click" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp">
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"
+            android:text="@string/click"
+            android:textColor="#0D47A1"
+            android:textSize="20sp" />
+
+        <Button
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:id="@+id/btn_5"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/click" />
+
+        <Button
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:id="@+id/btn_6"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/click" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp">
+
+        <Button
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:id="@+id/btn_7"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/click" />
+
+        <Button
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:id="@+id/btn_8"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/click" />
+
+        <Button
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:id="@+id/btn_9"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="@string/click" />
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:layout_margin="40dp"
+        android:backgroundTint="#8BC34A"
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:clickable="false"
+        android:textSize="20sp"
+        android:onClick="playAgain"
+        android:text="PLAY AGAIN" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

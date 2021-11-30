@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic Tac Toe Game</string>
+    <string name="click_me">Click me</string>
+    <string name="click">click</string>
+    <string name="gameName">Tic Tac Toe Game</string>
+    <string name="it_is_playerx_s_turn">It is playerX\'s turn.</string>
+</resources>
